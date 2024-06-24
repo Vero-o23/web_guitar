@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: bisque;
+}
+header{
+    
+}
+footer{
+    background-color: gray;
+}
+
+.contenedor_limite_2{
+    background-color: white;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.padre{
+    background-color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card_2{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 350%;
+    text-align: center;
+    padding: 25px;
+    border: 4px solid beige;
+    padding-bottom: 50px;
+}
+.card_2 img{
+    width: 100%;
+    height: 90%;
+    border: 6px solid bisque;
+    border-radius: 10px;
+}
+section{
+    margin: 25px;
+}
+
+.perro{
+    text-align: center;
+    text-decoration: solid;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    letter-spacing: 5px;
+    
+}
+nav li{
+display: inline;
+}
+nav li :hover{
+    color: white;
+    text-decoration: underline;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.font{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.letras{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+@media screen and (max-width:700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .contenedor_limite3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .contenedor_limite_2{
+        flex-direction: nowrap;
+        align-items: center;
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+        justify-content: center;
+
+    }
+
+    .contenedor_limite{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        flex-direction: column;
+    }
+    .card4{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-header{
+        flex-grow: 1;
+    }
+   
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 7 / 3; 
+    }
+    .div1 img{
+        width: 100%;
+    }
+    .div2 { 
+        grid-area: 1 / 3 / 7 / 5; 
+    }
+    .div2 img{
+        width: 100%;
+    }
+.pancho{
+    width: 700px;
+    border: 10px;
+    margin: 0 auto;
+}
+.madre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.contenedor_limite3{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+.contenedor_limite{
+    width: 100%;
+    height: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+.card4{
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 350%;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid;
+    padding-bottom: 50px;
+}
+.card img{
+  
+    
+}
+.card-header img{
+    width: 100%;
+    height: 90%;
+    border: 2px solid #fff;
+    border-radius: 0 0 0 0;
+    object-fit: contain;
+}
+.card-body{
+    padding: 20px 15px;
+    text-align: center;
+}
+.btn{
+    background-color: blue;
+    color: blue;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.oxygen-regular {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
